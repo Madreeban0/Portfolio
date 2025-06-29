@@ -1,0 +1,15 @@
+@import "tailwindcss";
+/* Animated line effect */
+.animated-line .line-fill {
+  width: 0%;
+  animation: fillLine 2s forwards;
+}
+
+@keyframes fillLine {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
