@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Profile Image */}
         <div className="w-40 h-40 md:w-90 md:h-90 rounded-full overflow-hidden bg-gray-300">
           <img
-            src="/src/assets/prophoto.jpg"
+            src="/public/assets/prophoto.jpg"
             alt="Profile"
             className="w-full h-full object-cover"
           />

@@ -16,7 +16,7 @@ export default function Projects() {
         {/* Card */}
         <div className="mt-20 w-280 bg-blue-200 rounded-xl shadow-lg border-t-4 border-blue-700 p-8 max-w-xl mx-auto h-180">
           <img
-            src="/src/assets/projects.png"
+            src="/public/assets/projects.png"
             alt="Coming Soon"
             className="w-20 h-20 mx-auto mb-4"
           />

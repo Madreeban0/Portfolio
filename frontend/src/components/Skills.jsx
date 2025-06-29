@@ -3,13 +3,13 @@ import React from "react";
 const skills = [
   { name: "React", icon: "react.svg" },
   { name: "Data Entry", icon: "data.svg" },
-  { name: "Node.js", icon: "/src/assets/nodejs.png" },
+  { name: "Node.js", icon: "/public/assets/nodejs.png" },
   { name: "Product Research", icon: "product.svg" },
   {name: "Market Research", icon:"market.svg" },
-  { name: "MongoDB", icon: "/src/assets/mongodb.png" },
-  {name: "Github", icon:"/src/assets/github.png"},
-  { name: "Java", icon: "/src/assets/java.png" },
-  { name: "C++", icon: "/src/assets/c.png" },
+  { name: "MongoDB", icon: "/public/assets/mongodb.png" },
+  {name: "Github", icon:"/public/assets/github.png"},
+  { name: "Java", icon: "/public/assets/java.png" },
+  { name: "C++", icon: "/public/assets/c.png" },
 ];
 
 export default function Skills() {
