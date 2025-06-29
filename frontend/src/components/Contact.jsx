@@ -23,7 +23,7 @@ export default function Contact() {
           <div className="flex flex-col gap-6">
             <div className="bg-blue-200 rounded-xl shadow-md p-8">
               <img
-                src="/public/assets/email.png"
+                src="/assets/email.png"
                 alt="Email"
                 className="w-8 h-8 mx-auto mb-2"
               />
@@ -33,7 +33,7 @@ export default function Contact() {
 
             <div className="bg-blue-200 rounded-xl shadow-md p-8">
               <img
-                src="/public/assets/location.png"
+                src="/assets/location.png"
                 alt="Location"
                 className="w-8 h-8 mx-auto mb-2"
               />
@@ -43,7 +43,7 @@ export default function Contact() {
 
             <div className="bg-blue-200 rounded-xl shadow-md p-8">
               <img
-                src="/public/assets/availability.png"
+                src="/assets/availability.png"
                 alt="Availability"
                 className="w-8 h-8 mx-auto mb-2"
               />

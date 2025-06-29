@@ -12,7 +12,7 @@ export default function Hero() {
         {/* Profile Image */}
         <div className="w-40 h-40 md:w-90 md:h-90 rounded-full overflow-hidden bg-gray-300">
           <img
-            src="/public/assets/prophoto.jpg"
+            src="/assets/prophoto.jpg"
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -61,13 +61,13 @@ export default function Hero() {
           {/* Social Links */}
           <div className="flex gap-4 justify-center md:justify-start">
             <a href="https://www.linkedin.com/in/reeban-austrive-11019a254/" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/linkedin.png" alt="LinkedIn" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
+              <img src="/assets/linkedin.png" alt="LinkedIn" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
             </a>
             <a href="https://github.com/Madreeban0" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/github.png" alt="GitHub" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
+              <img src="/assets/github.png" alt="GitHub" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
             </a>
             <a href="https://www.instagram.com/moxey_00/" target="_blank" rel="noopener noreferrer">
-              <img src="/src/assets/instagram.png" alt="Instagram" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
+              <img src="/assets/instagram.png" alt="Instagram" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
             </a>
           </div>
         </div>
