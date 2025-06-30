@@ -1,5 +1,5 @@
 import React from "react";
-import projects from "./public/projects.png";
+// import projects from "./public/projects.png";
 
 export default function Projects() {
   return (
@@ -17,7 +17,7 @@ export default function Projects() {
         {/* Card */}
         <div className="mt-20 w-280 bg-blue-200 rounded-xl shadow-lg border-t-4 border-blue-700 p-8 max-w-xl mx-auto h-180">
           <img
-            src={projects}
+            src="/public/projects.png"
             alt="Coming Soon"
             className="w-20 h-20 mx-auto mb-4"
           />
