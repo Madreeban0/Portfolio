@@ -6,7 +6,7 @@ export default function About() {
     
     <section id="about" className="py-16 px-4 bg-black">
           
-        <h1 className="ml-230 mb-8 mt-20 text-blue-600 font-bold">About me</h1>
+        <h1 className="ml-218 mb-8 mt-20 text-blue-600 font-bold">About me</h1>
         
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         
