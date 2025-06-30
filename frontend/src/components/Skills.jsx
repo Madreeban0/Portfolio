@@ -10,6 +10,7 @@ const skills = [
   {name: "Github", icon:"github.png"},
   { name: "Java", icon: "java.png" },
   { name: "C++", icon: "c.png" },
+  {name: "Transcryption", icon:"subtitles.png"}
 ];
 
 export default function Skills() {

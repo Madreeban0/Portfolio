@@ -7,9 +7,7 @@ export default function About() {
     <section id="about" className="py-16 px-4 bg-black">
           
         <h1 className="ml-250 mb-5 mt-20 text-blue-600 font-bold">About me</h1>
-         <div className="relative w-16 h-1 mb-20 bg-blue-600 mx-auto mt-4 overflow-hidden">
-          <div className="absolute top-0 left-0 h-full bg-red-700 animate-fillLine"></div>
-        </div>
+        
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
         
         {/* Card 1 */}
