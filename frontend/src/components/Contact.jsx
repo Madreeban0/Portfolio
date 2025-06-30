@@ -1,5 +1,7 @@
 import React from "react";
-
+import email from "./public/email.png";
+import location from "./public/location.png";
+import availability from "./public/availability.png"
 export default function Contact() {
   return (
     <section id="contact" className="py-16 px-4 bg-black">
@@ -23,7 +25,7 @@ export default function Contact() {
           <div className="flex flex-col gap-6">
             <div className="bg-blue-200 rounded-xl shadow-md p-8">
               <img
-                src="/assets/email.png"
+                src={email}
                 alt="Email"
                 className="w-8 h-8 mx-auto mb-2"
               />
@@ -33,7 +35,7 @@ export default function Contact() {
 
             <div className="bg-blue-200 rounded-xl shadow-md p-8">
               <img
-                src="/assets/location.png"
+                src={location}
                 alt="Location"
                 className="w-8 h-8 mx-auto mb-2"
               />
@@ -43,7 +45,7 @@ export default function Contact() {
 
             <div className="bg-blue-200 rounded-xl shadow-md p-8">
               <img
-                src="/assets/availability.png"
+                src={availability}
                 alt="Availability"
                 className="w-8 h-8 mx-auto mb-2"
               />

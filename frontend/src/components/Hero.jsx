@@ -1,4 +1,8 @@
 import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
+import prophoto from "./public/prophoto.png";
+import linkedin from "./public/linkedin.png";
+import github from "./public/github.png";
+import instagram from "./public/instagram.png";
 
 export default function Hero() {
   return (
@@ -12,7 +16,7 @@ export default function Hero() {
         {/* Profile Image */}
         <div className="w-40 h-40 md:w-90 md:h-90 rounded-full overflow-hidden bg-gray-300">
           <img
-            src="/assets/prophoto.jpg"
+            src={prophoto}
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -61,13 +65,13 @@ export default function Hero() {
           {/* Social Links */}
           <div className="flex gap-4 justify-center md:justify-start">
             <a href="https://www.linkedin.com/in/reeban-austrive-11019a254/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/linkedin.png" alt="LinkedIn" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
+              <img src={linkedin} alt="LinkedIn" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
             </a>
             <a href="https://github.com/Madreeban0" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/github.png" alt="GitHub" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
+              <img src={github} alt="GitHub" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
             </a>
             <a href="https://www.instagram.com/moxey_00/" target="_blank" rel="noopener noreferrer">
-              <img src="/assets/instagram.png" alt="Instagram" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
+              <img src={instagram} alt="Instagram" className="w-12 h-12 object-cover cursor-pointer hover:opacity-80 transition" />
             </a>
           </div>
         </div>
