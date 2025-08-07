@@ -3,12 +3,13 @@ import { FaLinkedin, FaEnvelope } from 'react-icons/fa';
 // import linkedin from "./public/linkedin.png";
 // import github from "./public/github.png";
 // import instagram from "./public/instagram.png";
+import profile from '../../public/cretors.jpg'; 
 
 export default function Hero() {
   return (
     <section
       id="home"
-      className="relative w-screen h-screen flex flex-col justify-center items-center bg-black text-white overflow-hidden"
+      className="relative w-screen h-screen flex flex-col justify-center items-center bg-[#0a192f] text-white overflow-hidden"
     >
       {/* Main content container */}
       <div className="relative z-10 container mx-auto px-4 md:px-0 flex flex-col md:flex-row items-center gap-12">
@@ -16,7 +17,7 @@ export default function Hero() {
         {/* Profile Image */}
         <div className="w-40 h-40 md:w-90 md:h-90 rounded-full overflow-hidden bg-gray-300">
           <img
-            src="/cretors.jpg"
+            src={profile}
             alt="Profile"
             className="w-full h-full object-cover"
           />
@@ -50,7 +51,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 justify-center md:justify-start mb-4">
             <a
               href="#contact"
-              className="px-6 py-2 rounded-full bg-gradient-to-r from-purple-600 to-pink-600 hover:opacity-90"
+              className="px-6 py-2 text-black rounded-full border border-blue-600 hover:bg-white   hover:opacity-100"
             >
               Get in Touch
             </a>
